@@ -1,0 +1,228 @@
+*{margin: 0; padding: 0;}
+body{
+	background-image: linear-gradient(to bottom, skyblue , white);
+	min-height: 1000px;
+}
+/*header area start*/
+#header{
+	position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+}
+.container{
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*padding: 15px 0;*/
+}
+.header-bg{
+	background: #fff;
+	border-left: 1px solid #DBDBDB;
+	border-right: 1px solid #DBDBDB;
+	border-top: 1px solid #DBDBDB;
+}
+.logo-area{
+	width: 30%;
+	float: left;
+	overflow: hidden;
+}
+.logo-area .logo{
+	width: 20%;
+    float: left;
+}
+.logo-area .logo img{
+	width: 100%;
+}
+.logo-area .logo-text{
+	width: 70%;
+    float: left;
+}
+.logo-area .logo-text p{
+	font-family: sans-serif;
+    font-size: 30px;
+    color: #848EB1;
+    float: left;
+    margin-top: 20px;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	overflow: hidden;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #848EB1;
+    text-transform: uppercase;
+    padding: 30px 34px;
+    display: block;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.menu ul li a:hover{
+	background: #496281;
+	color: #fff;
+}
+/*header area end*/
+/*banner area start*/
+.banner-area{
+	margin-top: 10px;
+
+}
+.banner-bg{
+	background-image: url(../images/banner-bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 0;
+	border-right: 1px solid #DBDBDB;
+	border-left: 1px solid #DBDBDB;
+}
+.banner-wrapper{
+	width: 25%;
+    margin: 160px 0px;
+    background: #665953;
+    opacity: .6;
+}
+.banner-content{
+	padding: 30px;
+}
+.banner-content h3{
+	font-family: sans-serif;
+    font-weight: normal;
+    font-size: 27px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.5;
+} 
+.banner-content p{
+	font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+} 
+.banner-content button{
+	border: 0;
+    outline: 0;
+    background: #414452;
+    margin-top: 20px;
+    border-radius: 5px;
+} 
+.banner-content button a{
+	text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    color: #fff;
+} 
+/*banner area end*/
+/*service area start*/
+.single-service{
+	width: 25%;
+	text-align: center;
+	margin: 70px 0;
+	float: left;
+	padding: 0 49px;
+}
+.service-br{
+	border-right: 1px solid #DBDBDB;
+	border-left: 1px solid #DBDBDB;
+}
+.single-service h3{
+	font-family: sans-serif;
+    font-weight: normal;
+    color: #D9CBC6;
+    margin-bottom: 5px;
+}
+.single-service img{
+	width: 100%;
+}
+.single-service p{
+	font-family: sans-serif;
+    font-size: 15px;
+    color: #9A9898;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.single-service button{
+	border: 0;
+    outline: 0;
+    background: #496281;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.single-service button a{
+	display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+}
+/*service area end*/
+/*footer area start*/
+.footer-area{
+	text-align: center;
+    margin-top: 20px;
+}
+.footer-br{
+	border-right: 1px solid #DBDBDB;
+	border-left: 1px solid #DBDBDB;
+	border-bottom: 1px solid #DBDBDB;
+}
+.footer-area .copyright{}
+
+.footer-area .copyright span{
+	font-family: sans-serif;
+	color: #354F70;
+}
+.footer-area .copyright p{
+	font-family: sans-serif;
+	color: #354F70;
+	margin: 10px 0;
+}
+.footer-area .social-icon{
+	width: 50%;
+	margin: 0 auto;
+}
+.footer-area .social-icon ul{
+	list-style: none;
+    overflow: hidden;
+    display: inline-block;
+    margin: 20px 0px 50px 0px;
+}
+.footer-area .social-icon ul li{
+	float: left;
+    margin: 0px 10px;
+}
+.footer-area .social-icon ul .face-col{
+	background: #4F67A0;
+}
+.footer-area .social-icon ul .twit-col{
+	background: #25A6E1;
+}
+.footer-area .social-icon ul .goo-col{
+	background: #D94737;
+}
+.footer-area .social-icon ul .res-col{
+	background: #F3A31E;
+}
+.footer-area .social-icon ul li a{
+	text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 2.5;
+}
+.footer-area .social-icon ul li a i{
+	color: #fff;
+}
+/*footer area end*/
